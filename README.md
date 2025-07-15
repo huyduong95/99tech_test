@@ -22,9 +22,6 @@ This is an end-to-end test automation framework built with Playwright for both U
 Clone the repository and install dependencies:
 
 ```bash
-# Clone the repository
-git clone <your-repo-url>
-cd <your-repo-directory>
 
 # Install dependencies using Yarn
 yarn install
