@@ -1,0 +1,26 @@
+{
+  "name": "99tech_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --project=chrome",
+    "test:regression": "playwright test -g @login",
+    "test:login": "playwright test -g @login",
+    "test:safari": "playwright test -g @TC_LOGIN_002 --project=safari",
+    "test:api": "playwright test -g @api --project=api",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.54.0",
+    "ajv": "^8.17.1",
+    "axios": "^1.10.0",
+    "dotenv": "^17.2.0",
+    "playwright": "^1.54.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "credentials": {
+    "valid": {
+      "user": "Admin",
+      "password": "admin123"
+    },
+    "invalid": {
+      "user": "invalid_user",
+      "password": "invalid_password"
+    }
+  },
+  "userInformation": {
+    "user1": {
+      "username": "dannydany",
+      "role": "ESS",
+      "name": "Gabriel Abbott",
+      "status": true
+    }
+  },
+  "urls": {
+    "dashboard": "web/index.php/dashboard/index"
+  },
+  "messages": {
+    "invalid_login": "Invalid credentials",
+    "required": "Required"
+  },
+  "navItems": {
+    "admin": "Admin",
+    "pim": "PIM",
+    "leave": "Leave",
+    "time": "Time",
+    "recruitment": "Recruitment",
+    "myInfo": "My Info",
+    "performance": "Performance",
+    "dashboard": "Dashboard",
+    "directory": "Directory",
+    "maintenance": "Maintenance",
+    "claim": "Claim",
+    "buzz": "Buzz"
+  }
+}
